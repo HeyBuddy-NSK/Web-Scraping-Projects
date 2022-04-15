@@ -1,3 +1,4 @@
 # Web-Scraping-Projects
-This Repository Contains some Web Scraping programs and projects using python
 
+## 1. GDP Table of 20 countries
+## 2. Top 10 Crypto prices
