@@ -11,13 +11,16 @@ import pandas as pd
 
 
 while True:
+    
+    # Url for scraping
     url = "https://coinmarketcap.com/"
-
+    
+    # browser header for scraper
     hdrs = {'User-Agent':
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
                'Accept-Language':'en-US,en;q=0.9'}
 
-
+    # Request for url
     url_response = requests.get(url, hdrs)
 
 
